@@ -1,0 +1,23 @@
+{
+  "name": "ohmyfood",
+  "version": "0.1.0",
+  "description": "site d'une plate forme de restauration",
+  "main": "index.js",
+  "scripts": {
+    "compil": "node-sass sass/main.scss public/css/style.css",
+    "watch": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tazlocoding/Projet_ohmyfood.git"
+  },
+  "author": "Tazlo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tazlocoding/Projet_ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Tazlocoding/Projet_ohmyfood#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
