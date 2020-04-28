@@ -3,22 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/style.css">
   <title>Le délice des papilles</title>
 </head>
 <body>
-  <header>
-    <h1><a href="index.html">ohmyfood</a></h1>
+  <header class="header">
+    <h1><a class="header__title" href="index.html">ohmyfood</a></h1>
   </header>
   <main class="menu">
-    <header class="menu__restaurant">
+    <header class="menu__delice menu--delice">
       <h1>Le délices des papilles</h1>
     </header>
     <section  class="menu__title">
       <h2>Le délices des papilles</h2>
     </section>
-      <article class="menu__entrance">
-        <header>
+      <article class="menu__entrance menu--typoDelice">
+        <header class="header__design">
+          <img src="public/img/menu-design-3.svg" alt="">
           <h3>Pour bien commencer</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-3.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -47,8 +52,10 @@
       </article>
 
       <article class="menu__resistance">
-        <header>
+        <header class="header__design">
+          <img src="public/img/menu-design-3.svg" alt="">
           <h3>Pour bien continuer</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-3.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -77,8 +84,10 @@
       </article>
 
       <article class="menu__dessert">
-        <header>
+        <header class="header__design">
+          <img src="public/img/menu-design-3.svg" alt="">
           <h3>Pour bien terminer</h3>
+          <img class="header__design--rotate1" src="public/img/menu-design-3.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -110,9 +119,9 @@
       </footer>
   </main>
 
-  <footer>
-        <h4><a href="mention.html">Mention légales</a></h4>
-        <h4><a href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
+  <footer class="footer">
+    <h4><a class="footer__mention" href="mention.html">Mention légales</a></h4>
+    <h4><a class="footer__contact" href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
   </footer>
 </body>
 </html>

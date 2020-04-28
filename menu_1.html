@@ -4,23 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/41790c10cc.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/style.css">
   <title>La note enchantée</title>
 </head>
 <body>
-  <header>
-    <h1><a href="index.html">ohmyfood</a></h1>
+  <header class="header">
+    <h1><a class="header__title" href="index.html">ohmyfood</a></h1>
   </header>
   <main class="menu">
-    <header class="menu__restaurant">
+    <header class="menu__restaurant menu--note">
       <h1>La note enchantée</h1>
     </header>
-    <section class="menu__title">
+    <section class="menu__title menu--note">
       <i class="fas fa-music"></i>
       <h2>La note enchantée</h2>
     </section>
-      <article class="menu__entrance">
-        <header>
+      <article class="menu__entrance menu--typoNote">
+        <header class="header__design">
+         <img src="public/img/menu-design-1.svg" alt="">
           <h3>Prélude</h3>
+         <img class="header__design--rotate" src="public/img/menu-design-1.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -56,9 +61,11 @@
           </div>
       </article>
 
-      <article class="menu__resistance">
-        <header>
+      <article class="menu__resistance menu--typoNote">
+        <header class="header__design">
+          <img src="public/img/menu-design-1.svg" alt="">
           <h3>Point d'orgue</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-1.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -86,9 +93,11 @@
           </div>
       </article>
 
-      <article class="menu__dessert">
-        <header>
+      <article class="menu__dessert menu--typoNote">
+        <header class="header__design">
+          <img src="public/img/menu-design-1.svg" alt="">
           <h3>Mouvement final</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-1.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -106,14 +115,14 @@
             </div>
           </div>
       </article>
-      <footer class="menu__footer--title">
+      <footer class="menu__footer--title menu--note">
         <i class="fas fa-music"></i>
         <h1>La note enchantée</h1>
       </footer>
   </main>
-  <footer>
-        <h4><a href="mention.html">Mention légales</a></h4>
-        <h4><a href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
+  <footer class="footer">
+        <h4><a class="footer__mention" href="mention.html">Mention légales</a></h4>
+        <h4><a class="footer__contact" href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
   </footer>
 </body>
 </html>

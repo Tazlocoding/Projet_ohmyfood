@@ -3,22 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/style.css">
   <title>La palette du gôut</title>
 </head>
 <body>
-  <header>
-    <h1><a href="index.html">ohmyfood</a></h1>
+  <header class="header">
+    <h1><a class="header__title" href="index.html">ohmyfood</a></h1>
   </header>
   <main class="menu">
-    <header class="menu__restaurant">
+    <header class="menu__palette menu--palette">
       <h1>La palette du goût</h1>
     </header>
     <section class="menu__title">
       <h2>La palette du goût</h2>
     </section> 
-      <article class="menu__entrance">
-        <header>
+      <article class="menu--typoPalette">
+        <header class="header__design">
+          <img src="public/img/menu-design-4.svg">
           <h3>Esquise</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-4.svg">
         </header>
           <div class="ligne">
             <div class="left">
@@ -47,8 +52,10 @@
       </article>
 
       <article class="menu__resistance">
-        <header>
+        <header class="header__design">
+          <img src="public/img/menu-design-4.svg" alt="">
           <h3>Oeuvre de maitre</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-4.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -77,8 +84,10 @@
       </article>
 
       <article class="menu__dessert">
-        <header>
+        <header class="header__design">
+          <img src="public/img/menu-design-4.svg" alt="">
           <h3>Au sommet de l'art</h3>
+          <img class="header__design--rotate" src="public/img/menu-design-4.svg" alt="">
         </header>
           <div class="ligne">
             <div class="left">
@@ -110,9 +119,9 @@
       </footer>
   </main>
 
-  <footer> 
-        <h4><a href="mention.html">Mention légales</a></h4>  
-        <h4><a href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
+  <footer class="footer">
+    <h4><a class="footer__mention" href="mention.html">Mention légales</a></h4>
+    <h4><a class="footer__contact" href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
   </footer>
 </body>
 </html>
