@@ -1,0 +1,122 @@
+.header {
+  width: 100%;
+  background-color: #559c84;
+  display: flex;
+  justify-content: center; }
+
+.header__title {
+  color: #cfba55;
+  font-size: 4rem; }
+
+.header__title {
+  font-family: 'Roboto', sans-serif; }
+
+.footer {
+  width: 100%;
+  background-color: #559c84;
+  display: flex;
+  justify-content: space-between; }
+
+.footer {
+  font-family: 'Roboto', sans-serif; }
+
+.prochain {
+  display: flex;
+  justify-content: center; }
+
+.prochain__position {
+  background-color: #559c84;
+  margin: 15px;
+  border-radius: 10px; }
+
+.prochain__title {
+  color: #cfba55;
+  font-size: 3rem; }
+
+.footer__mention {
+  color: #cfba55;
+  font-size: 2rem; }
+
+.footer__contact {
+  color: #cfba55;
+  font-size: 2rem; }
+
+.list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: calc(50% - 40px);
+  height: 70vh;
+  box-sizing: border-box; }
+  .list-item--1 {
+    background: lightcyan;
+    border: 1px solid black; }
+  .list-item--2 {
+    background: #ede0ff;
+    border: 1px solid black; }
+  .list-item--3 {
+    background: #12cc66;
+    border: 1px solid black; }
+  .list-item--4 {
+    background: #3c098d;
+    border: 1px solid black; }
+
+.menu {
+  text-align: center; }
+
+.header__design {
+  display: flex;
+  justify-content: center; }
+
+.header__design--rotate {
+  transform: rotate(180deg); }
+
+img {
+  width: 30%;
+  margin: 0 5%; }
+
+.ligne {
+  display: flex;
+  justify-content: center; }
+
+.left {
+  width: 70%; }
+
+.right {
+  width: 30%;
+  margin: 0 10px; }
+
+a {
+  text-decoration: none; }
+
+.header__title {
+  font-family: 'Roboto', sans-serif; }
+
+.menu--note {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 2rem; }
+
+.menu--typoNote {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem; }
+
+.menu--chic {
+  font-family: 'Vollkorn', serif; }
+
+.menu--delice {
+  font-family: 'Dancing Script', cursive; }
+
+.menu--typoDelice {
+  font-family: 'Shadows Into Light', cursive; }
+
+.menu--palette {
+  font-family: 'Kaushan Script', cursive; }
+
+.menu--typoPalette {
+  font-family: 'Shadows Into Light', cursive; }

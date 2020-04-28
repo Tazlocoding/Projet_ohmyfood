@@ -1,0 +1,26 @@
+.menu {
+  text-align: center;
+}
+.header__design {
+  display: flex;
+  justify-content: center;
+}
+.header__design--rotate {
+  transform: rotate(180deg);
+}
+img{
+  width: 30%;
+  margin: 0 5%;
+}
+.ligne {
+  display: flex;
+  justify-content: center; 
+}
+.left {
+  width: 70%;
+ 
+}
+.right {
+  width: 30%;
+  margin: 0 10px;
+}

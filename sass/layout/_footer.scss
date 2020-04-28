@@ -1,0 +1,31 @@
+
+.footer {
+    width: 100%;
+    background-color: #559c84;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+.prochain {
+  display: flex;
+  justify-content: center;
+}
+.prochain__position {
+  background-color: #559c84;
+  margin: 15px;
+  border-radius: 10px;
+}
+.prochain__title {
+  color: #cfba55;
+  font-size: 3rem;
+}
+.footer__mention {
+  color: #cfba55;
+  font-size: 2rem;
+}
+.footer__contact {
+  color: #cfba55;
+  font-size: 2rem;
+}
