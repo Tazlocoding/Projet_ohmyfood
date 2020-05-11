@@ -1,0 +1,269 @@
+.header {
+  width: 100%;
+  background-color: #559c84;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.list-item__footer {
+  width: 100%;
+  background-color: #559c84;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-item__footer__mention {
+  font-size: 2rem;
+  color: #cfba55;
+}
+
+.list-item__footer__contact {
+  font-size: 2rem;
+  color: #cfba55;
+}
+
+.list-item__footer > div {
+  margin: 1.5rem;
+}
+
+.fas {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 1rem;
+  font-size: 6rem;
+  color: pink;
+}
+
+.fa-music {
+  background: -webkit-gradient(linear, left top, right top, from(red), to(orange));
+  background: linear-gradient(to right, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  width: calc(50% - 40px);
+  height: 80vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0.5px 0.5px 10px #4e4e5e;
+          box-shadow: 0.5px 0.5px 10px #4e4e5e;
+}
+
+.list-item--1 {
+  background: #FCDFDB;
+}
+
+.list-item--2 {
+  background: #FFF5FE;
+}
+
+.list-item--3 {
+  background: #F9F9F9;
+}
+
+.list-item--4 {
+  background: #FDFFFD;
+}
+
+.list-item__link {
+  font-size: 2rem;
+}
+
+.prochain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prochain__position {
+  background-color: #559c84;
+  margin: 40px;
+  border-radius: 15px;
+  padding: 1rem 5rem;
+}
+
+.card-item {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.card-item__title {
+  text-align: center;
+}
+
+.card-list-item--1 {
+  background: #FCDFDB;
+}
+
+.card-list-item--2 {
+  background: #FFF5FE;
+}
+
+.card-list-item--3 {
+  background: #F9F9F9;
+}
+
+.card-list-item--4 {
+  background: #FDFFFD;
+}
+
+.card-item__design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-item__design--long {
+  width: 45vh;
+}
+
+.card-item__design--rotate {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+img {
+  margin: 0 auto;
+}
+
+.card-item__ligne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%;
+}
+
+.card-item__left {
+  width: 80%;
+}
+
+.card-item__right {
+  width: 15%;
+}
+
+.card-item__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-item__link {
+  color: black;
+}
+
+.header__title {
+  font-family: 'Roboto', sans-serif;
+  color: #cfba55;
+  font-size: 4rem;
+}
+
+.footer__title--size {
+  font-family: 'Roboto', sans-serif;
+}
+
+.prochain__title--size {
+  font-family: 'Roboto', sans-serif;
+  color: #cfba55;
+  font-size: 3rem;
+}
+
+.list-item__title--1 {
+  font-family: 'Devonshire', cursive;
+  font-size: 2rem;
+}
+
+.list-item__title--2 {
+  font-family: 'Croissant One', cursive;
+}
+
+.list-item__title--3 {
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+}
+
+.list-item__title--4 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+.list-item__link--menu1 {
+  font-family: 'Sriracha', cursive;
+}
+
+.list-item__link--menu2 {
+  font-family: 'Noto Serif', serif;
+}
+
+.card-item__title--note {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 2rem;
+}
+
+.card-item--typoNote {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+}
+
+.card-item--chic {
+  font-family: 'Vollkorn', serif;
+  font-size: 1rem;
+}
+
+.card-item--delice {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.card-item--typoDish {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/*.card-item--typoPalette{
+  font-family: 'Shadows Into Light', cursive;
+}*/
+/*# sourceMappingURL=main.css.map */

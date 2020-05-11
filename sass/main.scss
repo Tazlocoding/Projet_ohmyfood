@@ -1,8 +1,15 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./layout/header";
 @import "./layout/footer";
+@import "./components/note";
 
 @import "./pages/home";
 @import "./pages/menu";
-@import "./layout/nav";
+@import "./components/nav";
 @import "./base/typography";
+@import "./layout/bouton";
+@import "./layout/item1";
+@import "./layout/item2";
+@import "./layout/item3";
+@import "./layout/item4";

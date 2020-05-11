@@ -1,0 +1,38 @@
+.prochain {
+  display: flex;
+  justify-content: center;
+&__position {
+  display: flex;
+  justify-content: center;
+  background-color: #559c84;
+  margin: 40px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.load {
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &__point {
+    background-color: $colour-secondary;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    animation: loadPoint $anim-delay backwards;
+    @for $i from 1 through $num-points {
+      &--#{$i} {
+        animation-delay: $anim-delay * $i;
+      }
+    }
+  }
+}
+}
+@keyframes loadPoint {
+0% {
+  transform: scaleY(0);
+}
+100% {
+  transform: scaleY(1);
+}
+}

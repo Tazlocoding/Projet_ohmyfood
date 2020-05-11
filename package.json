@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compil": "node-sass sass/main.scss public/css/style.css",
-    "watch": "node-sass sass/main.scss public/css/style.css -w"
+    "watch": "node-sass sass/main.scss public/css/style.css -w",
+    "prefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   },
   "author": "Tazlo",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Tazlocoding/Projet_ohmyfood/issues"
   },

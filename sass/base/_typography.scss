@@ -1,29 +1,65 @@
 .header__title {
   font-family: 'Roboto', sans-serif;
+  color: $colour-secondary;
+  font-size: 4rem;
 }
-.menu--note {
+.footer__title--size {
+  font-family: 'Roboto', sans-serif;
+  
+}
+.prochain__title--size {
+  font-family: 'Roboto', sans-serif;
+  color: $colour-secondary;
+  font-size: 1.5rem;
+}
+.list-item__title--1{
+  font-family: 'Devonshire', cursive;
+  font-size: 2rem;
+}
+.list-item__title--2{
+  font-family: 'Croissant One', cursive;
+}
+.list-item__title--3{
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+}
+.list-item__title--4{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+.list-item__link--menu1 {
+  font-family: 'Sriracha', cursive;
+}
+.list-item__link--menu2 {
+  font-family: 'Noto Serif', serif;
+}
+.list-item__link--menu3 {
+  font-family: 'Sriracha', cursive;
+  color: #0E88FB;
+}
+.list-item__link--menu4 {
+  font-family: 'Sriracha', cursive;
+  color: #77BF56;
+}
+.card-item__title--note {
   font-family: 'Ma Shan Zheng', cursive;
   font-size: 2rem;
 }
-.menu--typoNote{
+.card-item--typoNote{
   font-family: 'Caveat', cursive;
   font-size: 1.5rem;
 }
-.menu--chic {
+.card-item--chic{
   font-family: 'Vollkorn', serif;
-  font-size: 2rem;
-
+  font-size: 1.5rem;
 }
-.menu--delice{
+.card-item--delice{
   font-family: 'Dancing Script', cursive;
   font-size: 2rem
 }
-.menu--typoDelice{
+.card-item--typoDish{
   font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
 }
-.menu--palette{
-  font-family: 'Kaushan Script', cursive;
-}
-.menu--typoPalette{
-  font-family: 'Shadows Into Light', cursive;
-}
+
+

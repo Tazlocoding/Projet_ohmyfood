@@ -15,45 +15,57 @@
       <script src="https://kit.fontawesome.com/41790c10cc.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="public/css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <title>ohmyfood</title>
+      <link href="https://fonts.googleapis.com/css?family=Devonshire&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <title>Ohmyfood</title>
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__title">ohmyfood</h1>
+  <header class="header header__title--size">
+    <h1><a class="header__title" href="index.html">ohmyfood</a></h1>
   </header>
   
   <main class="list">
 
-    <aside class="list-item list-item--1 menu--note">
-      <i class="list-item__logo fas fa-music"></i>
-      <h3 class="list-item__title">La note enchantée</h3>
-      <h2 class="list-item__link" ><a href="menu_1.html">MENU</a></h2>
+    <aside class="list-item list-item--1">
+      <i class="fas fa-music"></i>
+      <h2 class="list-item__title--1">La note enchantée</h2>
+      <a class="list-item__link list-item__link--menu1" href="menu_1.html">MENU</a>
     </aside>
 
-    <aside class="list-item list-item--2 menu--chic">
-      <h3 class="list-item__title">Le chic à la française</h3>
-      <h2 class="list-item__link" ><a href="menu_2.html">Menu</a></h2>
+    <aside class="list-item list-item--2">
+      <h2 class="list-item__title--2">Le chic à la française</h2>
+      <a class="list-item__link list-item__link--menu2" href="menu_2.html">Menu</a>
     </aside>
 
     <aside class="list-item list-item--3">
-      <h3 class="list-item__title">Le délice des papilles</h3>
-      <h2 class="list-item__link" ><a href="menu_3.html">Menu</a></h2>
+      <h2 class="list-item__title--3">Le délice des papilles</h2>
+      <a class="list-item__link list-item__link--menu3" href="menu_3.html">Menu</a>
     </aside>
     <aside class="list-item list-item--4">
-      <h3 class="list-item__title">La palette du goût</h3>
-      <h2 class="list-item__link" ><a href="menu_4.html">Menu</a></h2>
+      <h2 class="list-item__title--4">La palette du goût</h2>
+      <a class="list-item__link list-item__link--menu4" href="menu_4.html">Menu</a>
     </aside>
   
   </main>
   <aside class="prochain">
-    <div class="prochain__position">
+    <div class=" prochain__position prochain__title--size">
       <div class="prochain__title">Prochainement</div>
+      <div class="load">
+        <div class="load__point load__point--1"></div>
+        <div class="load__point load__point--2"></div>
+        <div class="load__point load__point--3"></div>
+        <div class="load__point load__point--4"></div>
+      </div>
    </div>
   </aside>
 
-  <footer class="footer">
-        <h4><a class="footer__mention" href="mention.html">Mention légales</a></h4>
-        <h4><a class="footer__contact" href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></h4>
+  <footer class="list-item__footer">
+    <div><a class="list-item__footer__mention footer__title--size" href="mention.html">Mention légales</a></div>
+    <div><a class="list-item__footer__contact footer__title--size" href="mailto:gwelaurentaz@gmail.com">Contactez-nous</a></div>
   </footer>
 </body>
 </html>

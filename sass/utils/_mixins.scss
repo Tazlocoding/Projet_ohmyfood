@@ -1,0 +1,7 @@
+@mixin footer-size {
+  font-size: 2rem; 
+}
+
+@mixin card-shadow {
+  box-shadow: 0.5px 0.5px 10px rgb(78, 78, 94);
+}
