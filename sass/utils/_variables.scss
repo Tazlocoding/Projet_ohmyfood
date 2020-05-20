@@ -4,7 +4,14 @@ $colour-item1: #FCDFDB;
 $colour-item2: #FFF5FE;
 $colour-item3: #F9F9F9;
 $colour-item4: #FDFFFD;
+$colour-title1: #3A0912;
+$colour-title2: #C77412;
+$colour-title3: #0E88FB;
+$colour-title4: #77BF56;
 
-$num-points: 4;
-$anim-dur: 1000ms;
+$transform-list: (1.2, 1.2);
+$opacity-list: 0.5;
+
+$num-points: 3;
+$anim-dur: 2000ms;
 $anim-delay: $anim-dur / $num-points;
