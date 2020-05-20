@@ -1,47 +1,37 @@
 .list-item__footer {
-    width: 100%;
-    background-color: #559c84;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    &__mention {
-      color: $colour-secondary;
+  width: 100%;
+  background-color: #559c84;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  &__mention {
+    color: $colour-secondary;
+  }
+  &__contact {
+    color: $colour-secondary;
+  }
+  & > div {
+    margin: 0.5rem;
+  }
+  &__action {
+    &:hover {
+      animation: move 200ms cubic-bezier(0.4, 0.1, 0.6, 0.9) infinite;
     }
-    &__contact { 
-      color: $colour-secondary;
-    } 
-    & > div {
-      margin: 0.5rem;
-    }
-    &__action {
-      &:hover{
-        animation: move 200ms cubic-bezier(.4,.1,.6,.9) infinite;
-      }
-    } 
+  }
 }
 
 @keyframes move {
-  25%{
+  25% {
     transform: translateX(2%);
   }
-  50%{
+  50% {
     transform: translateY(6%);
   }
-  75%{
+  75% {
     transform: translateX(-2%);
   }
-  100%{
+  100% {
     transform: translateY(-6%);
   }
 }
- 
- 
-
-
-
-
-
-
-
-
