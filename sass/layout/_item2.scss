@@ -4,15 +4,42 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.list-item__link--menu2 {
-  color: #C77412;
+.font-noto {
+  color: $colour-title2;
 }
 .card-list-item--2 {
   background: $colour-item2;
 }
-.card-item--chic{
+.card-item--2{
+  background: $colour-item2;
+}
+.card-item--vollkorn{
   background: linear-gradient(to right, #C77412, #905BFD);
   -webkit-background: linear-gradient(to right, #C77412, #905BFD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.underline__item2--1 {
+  background: linear-gradient(to top, rgba(199, 116, 18, 1) 10%, transparent 10.1%) no-repeat;
+  @include underline;
+}
+.underline__item2--2 {
+  background: linear-gradient(to top, rgba(228, 154, 178, 1) 10%, transparent 10.1%) no-repeat;
+  @include underline;
+}
+.underline__item2--3 {
+  background: linear-gradient(to top, rgba(144, 91, 253, 1) 10%, transparent 10.1%) no-repeat;
+  @include underline;
+}
+.card-item__design--color1 {
+  color: rgb(199, 116, 18);
+}
+.card-item__design--color2 {
+  color: rgb(228, 154, 178);
+}
+.card-item__design--color3 {
+  color: rgb(144, 91, 253);
+}
+.card-item__design__long--color2 {
+  width: 40vh;
 }
