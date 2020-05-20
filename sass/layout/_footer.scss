@@ -3,34 +3,43 @@
     background-color: #559c84;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     &__mention {
-      font-size: 2rem;
-      color: $colour-secondary; 
-      transition: scale(1);
-      transition-property: transform;
-    &:hover {
-        transform: scale(1.5);
-      }
+      color: $colour-secondary;
     }
-    &__contact {
-      font-size: 2rem;
+    &__contact { 
       color: $colour-secondary;
     } 
     & > div {
-      margin: 1.5rem;
+      margin: 0.5rem;
+    }
+    &__action {
+      &:hover{
+        animation: move 200ms cubic-bezier(.4,.1,.6,.9) infinite;
+      }
     } 
 }
 
-/*@keyframes headshake {
-  0%{
-    transform: scaleX(1);
+@keyframes move {
+  25%{
+    transform: translateX(2%);
+  }
+  50%{
+    transform: translateY(6%);
+  }
+  75%{
+    transform: translateX(-2%);
   }
   100%{
-    transform: scaleX(1.15);
+    transform: translateY(-6%);
   }
-}*/
+}
+ 
+ 
+
+
+
 
 
 
