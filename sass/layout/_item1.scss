@@ -1,9 +1,9 @@
 .font-devonshire {
   color: $colour-title1;
 }
-.font-sriracha{
+.font-sriracha {
   background: $colour-item1;
-  &__item1{
+  &__item1 {
     color: $colour-title1;
   }
 }
@@ -11,8 +11,8 @@
   background-color: $colour-item1;
 }
 
-
 .underline__item1 {
-  background: linear-gradient(to top, rgba(58, 9, 18, 1) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(to top, rgba(58, 9, 18, 1) 10%, transparent 10.1%)
+    no-repeat;
   @include underline;
 }
