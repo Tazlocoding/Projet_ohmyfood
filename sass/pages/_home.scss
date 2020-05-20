@@ -1,46 +1,81 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .list {
+  max-width: 1440px;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
   &-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  width: calc(50% - 40px);
-  height: 80vh;
-  box-sizing: border-box;
-  @include card-shadow;
-  &--1 {
-    background: $colour-item1; 
-  }
-  &--2 {
-    background: $colour-item2;
-  }
-  &--3 {
-    background: $colour-item3;
-  }
-  &--4 {
-    background: $colour-item4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: calc(50% - 40px);
+    height: 80vh;
+    box-sizing: border-box;
+    @include card-shadow;
+    // Responsive
+    @media screen and (max-width: 1024px) {
+      height: 35vh;
+    }
+    @media screen and (max-width: 550px) {
+      width: calc(100% - 40px);
+    }
+    &--1 {
+      background: $colour-item1;
+      cursor: pointer;
+      &:hover {
+        background: lighten($colour-item1, 5);
+        & .fas {
+          @include opacity-list;
+        }
+        & .list-item__title--1 {
+          @include opacity-list;
+        }
+        & .list-item__link {
+          @include opacity-list;
+        }
+      }
+    }
+    &--2 {
+      background: $colour-item2;
+      &:hover {
+        background: darken($colour-item2, 5);
+        & .list-item__title--2 {
+          @include opacity-list;
+        }
+        & .list-item__link {
+          @include opacity-list;
+        }
+      }
+    }
+    &--3 {
+      background: $colour-item3;
+      &:hover {
+        background: darken($colour-item3, 5);
+        & .list-item__title--3 {
+          @include opacity-list;
+        }
+        & .list-item__link {
+          @include opacity-list;
+        }
+      }
+    }
+    &--4 {
+      background: $colour-item4;
+      &:hover {
+        background: darken($colour-item4, 5);
+        & .list-item__title--4 {
+          @include opacity-list;
+        }
+        & .list-item__link {
+          @include opacity-list;
+        }
+      }
+    }
   }
 }
-}
-.list-item__link{
-  font-size: 2rem;
-}
-
-.mention {
-  text-align: center;
-  font-size: 2rem;
-  &__item {
-    text-align: justify;
-    margin: 30px 20px;
-  }
-}
-
