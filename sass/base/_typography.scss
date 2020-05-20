@@ -1,65 +1,86 @@
-.header__title {
-  font-family: 'Roboto', sans-serif;
+.font-roboto {
+  font-family: "Roboto", sans-serif;
   color: $colour-secondary;
-  font-size: 4rem;
 }
-.footer__title--size {
-  font-family: 'Roboto', sans-serif;
-  
+.font-devonshire {
+  font-family: "Devonshire", cursive;
+  @media screen and (max-width: 320px) {
+    font-size: 0.7rem;
+  }
 }
-.prochain__title--size {
-  font-family: 'Roboto', sans-serif;
-  color: $colour-secondary;
+.font-croissant {
+  font-family: "Croissant One", cursive;
+  @media screen and (max-width: 320px) {
+    font-size: 0.7rem;
+  }
+}
+.font-noto {
+  font-family: "Noto Serif", serif;
+  &--title2 {
+    color: $colour-title2;
+  }
+}
+.font-parisienne {
+  font-family: "Parisienne", cursive;
+  @media screen and (max-width: 320px) {
+    font-size: 0.7rem;
+  }
+}
+.font-kaushan {
+  font-family: "Kaushan Script", cursive;
+  @media screen and (max-width: 320px) {
+    font-size: 0.7rem;
+  }
+}
+.font-sriracha {
+  font-family: "Sriracha", cursive;
+  &--title1 {
+    color: $colour-title1;
+  }
+  &--title3 {
+    color: $colour-title3;
+  }
+  &--title4 {
+    color: $colour-title4;
+  }
+}
+.list-item__link {
+  font-size: 1rem;
+}
+.card-item__mashan {
+  font-family: "Ma Shan Zheng", cursive;
   font-size: 1.5rem;
 }
-.list-item__title--1{
-  font-family: 'Devonshire', cursive;
-  font-size: 2rem;
-}
-.list-item__title--2{
-  font-family: 'Croissant One', cursive;
-}
-.list-item__title--3{
-  font-family: 'Parisienne', cursive;
-  font-size: 2rem;
-}
-.list-item__title--4{
-  font-family: 'Kaushan Script', cursive;
-  font-size: 2rem;
-}
-.list-item__link--menu1 {
-  font-family: 'Sriracha', cursive;
-}
-.list-item__link--menu2 {
-  font-family: 'Noto Serif', serif;
-}
-.list-item__link--menu3 {
-  font-family: 'Sriracha', cursive;
-  color: #0E88FB;
-}
-.list-item__link--menu4 {
-  font-family: 'Sriracha', cursive;
-  color: #77BF56;
-}
-.card-item__title--note {
-  font-family: 'Ma Shan Zheng', cursive;
-  font-size: 2rem;
-}
-.card-item--typoNote{
-  font-family: 'Caveat', cursive;
+.card-item--caveat {
+  font-family: "Caveat", cursive;
   font-size: 1.5rem;
 }
-.card-item--chic{
-  font-family: 'Vollkorn', serif;
-  font-size: 1.5rem;
+.card-item--vollkorn {
+  font-family: "Vollkorn", serif;
+  font-size: 2rem;
 }
-.card-item--delice{
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem
-}
-.card-item--typoDish{
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 1.5rem;
-}
+.card-item--dancing {
+  font-family: "Dancing Script", cursive;
+  @media screen and (max-width: 550px) {
+    font-size: 0.8rem;
+  }
 
-
+}
+.card-item--shadow {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1rem;
+}
+.card-item__title--top {
+  font-size: 1rem;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .card-item__footer--title {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card-item__footer--title {
+    font-size: 1rem;
+  }
+}
