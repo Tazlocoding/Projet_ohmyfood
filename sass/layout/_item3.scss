@@ -1,6 +1,6 @@
-.list-item__title--3{
-  background: linear-gradient(to right, #0431DF, #0E88FB);
-  -webkit-background: linear-gradient(to right, #0431DF, #0E88FB);
+.list-item__title--3 {
+  background: linear-gradient(to right, #0431df, #0e88fb);
+  -webkit-background: linear-gradient(to right, #0431df, #0e88fb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11,7 +11,12 @@
   color: $colour-title3;
 }
 .underline__item3--1 {
-  background: linear-gradient(to top, rgba(4, 49, 223, 1) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(4, 49, 223, 1) 10%,
+      transparent 10.1%
+    )
+    no-repeat;
   @include underline;
 }
 .underline__item3--2 {
