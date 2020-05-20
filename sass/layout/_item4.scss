@@ -1,6 +1,6 @@
-.list-item__title--4{
-  background: linear-gradient(to right, #72BF56, #BFFF7E);
-  -webkit-background: linear-gradient(to right, #72BF56, #BFFF7E);
+.list-item__title--4 {
+  background: linear-gradient(to right, #72bf56, #bfff7e);
+  -webkit-background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -8,13 +8,14 @@
   background: $colour-item4;
 }
 .card-item__dancing {
-  background: linear-gradient(to right, #72BF56,#BFFF7E);
-  -webkit-background: linear-gradient(to right, #72BF56, #BFFF7E);
+  background: linear-gradient(to right, #72bf56, #bfff7e);
+  -webkit-background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .underline__item4 {
-  background: linear-gradient(to top, rgb(153, 241, 121) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(to top, rgb(153, 241, 121) 10%, transparent 10.1%)
+    no-repeat;
   @include underline;
 }
