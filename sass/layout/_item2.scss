@@ -1,6 +1,6 @@
-.list-item__title--2{
-  background: linear-gradient(to right, #C77412, #905BFD);
-  -webkit-background: linear-gradient(to right, #C77412, #905BFD);
+.list-item__title--2 {
+  background: linear-gradient(to right, #c77412, #905bfd);
+  -webkit-background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -10,25 +10,40 @@
 .card-list-item--2 {
   background: $colour-item2;
 }
-.card-item--2{
+.card-item--2 {
   background: $colour-item2;
 }
-.card-item--vollkorn{
-  background: linear-gradient(to right, #C77412, #905BFD);
-  -webkit-background: linear-gradient(to right, #C77412, #905BFD);
+.card-item--vollkorn {
+  background: linear-gradient(to right, #c77412, #905bfd);
+  -webkit-background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .underline__item2--1 {
-  background: linear-gradient(to top, rgba(199, 116, 18, 1) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(199, 116, 18, 1) 10%,
+      transparent 10.1%
+    )
+    no-repeat;
   @include underline;
 }
 .underline__item2--2 {
-  background: linear-gradient(to top, rgba(228, 154, 178, 1) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(228, 154, 178, 1) 10%,
+      transparent 10.1%
+    )
+    no-repeat;
   @include underline;
 }
 .underline__item2--3 {
-  background: linear-gradient(to top, rgba(144, 91, 253, 1) 10%, transparent 10.1%) no-repeat;
+  background: linear-gradient(
+      to top,
+      rgba(144, 91, 253, 1) 10%,
+      transparent 10.1%
+    )
+    no-repeat;
   @include underline;
 }
 .card-item__design--color1 {
