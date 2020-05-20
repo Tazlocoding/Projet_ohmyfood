@@ -4,6 +4,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.card-list-item--3 {
+.card-item--3 {
   background: $colour-item3;
+}
+.font-siracha {
+  color: $colour-title3;
+}
+.underline__item3--1 {
+  background: linear-gradient(to top, rgba(4, 49, 223, 1) 10%, transparent 10.1%) no-repeat;
+  @include underline;
+}
+.underline__item3--2 {
+  background: linear-gradient(to top, #3583e0 10%, transparent 10.1%) no-repeat;
+  @include underline;
+}
+.underline__item3--3 {
+  background: linear-gradient(to top, #648ee7 10%, transparent 10.1%) no-repeat;
+  @include underline;
 }
