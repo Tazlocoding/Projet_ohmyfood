@@ -1,11 +1,12 @@
 @import "./utils/variables";
 @import "./utils/mixins";
+@import "./layout/mention";
 @import "./layout/header";
 @import "./layout/footer";
-@import "./components/note";
+@import "./components/fa";
 
 @import "./pages/home";
-@import "./pages/menu";
+@import "./pages/card";
 @import "./components/nav";
 @import "./base/typography";
 @import "./layout/bouton";
