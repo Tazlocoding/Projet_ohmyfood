@@ -76,7 +76,7 @@
       .list-item {
         width: calc(100% - 40px); } }
     .list-item--1 {
-      background: #FCDFDB;
+      background: #fcdfdb;
       cursor: pointer; }
       .list-item--1:hover {
         background: #fef4f3; }
@@ -90,7 +90,7 @@
           transform: scale(1.2, 1.2);
           opacity: 0.5; }
     .list-item--2 {
-      background: #FFF5FE; }
+      background: #fff5fe; }
       .list-item--2:hover {
         background: #ffdcfb; }
         .list-item--2:hover .list-item__title--2 {
@@ -100,7 +100,7 @@
           transform: scale(1.2, 1.2);
           opacity: 0.5; }
     .list-item--3 {
-      background: #F9F9F9; }
+      background: #f9f9f9; }
       .list-item--3:hover {
         background: #ececec; }
         .list-item--3:hover .list-item__title--3 {
@@ -110,7 +110,7 @@
           transform: scale(1.2, 1.2);
           opacity: 0.5; }
     .list-item--4 {
-      background: #FDFFFD; }
+      background: #fdfffd; }
       .list-item--4:hover {
         background: #e4ffe4; }
         .list-item--4:hover .list-item__title--4 {
@@ -123,6 +123,10 @@
 .card-item {
   margin: 50px auto;
   width: 80%; }
+  @media screen and (max-width: 1024px) {
+    .card-item {
+      margin: 40px auto;
+      width: 80%; } }
   @media screen and (max-width: 768px) {
     .card-item {
       margin: 40px auto;
@@ -145,8 +149,8 @@
     margin: 0 30px; }
     @media screen and (max-width: 1024px) {
       .card-item__design--long {
-        width: 40vh;
-        margin: 0 0px; } }
+        width: 20vh;
+        margin: 0 10px; } }
     @media screen and (max-width: 768px) {
       .card-item__design--long {
         width: 25vh;
@@ -170,7 +174,7 @@ img {
 .card-item__left {
   width: 70%; }
   .card-item__left__dessert {
-    padding: 3% 7%; }
+    padding: 3% 12%; }
     @media screen and (max-width: 1024px) {
       .card-item__left__dessert {
         padding: 3% 12%; } }
@@ -201,7 +205,7 @@ a {
 .font-noto {
   font-family: "Noto Serif", serif; }
   .font-noto--title2 {
-    color: #C77412; }
+    color: #c77412; }
 
 .font-parisienne {
   font-family: "Parisienne", cursive; }
@@ -218,11 +222,11 @@ a {
 .font-sriracha {
   font-family: "Sriracha", cursive; }
   .font-sriracha--title1 {
-    color: #3A0912; }
+    color: #3a0912; }
   .font-sriracha--title3 {
-    color: #0E88FB; }
+    color: #0e88fb; }
   .font-sriracha--title4 {
-    color: #77BF56; }
+    color: #77bf56; }
 
 .list-item__link {
   font-size: 1rem; }
@@ -310,15 +314,15 @@ a {
     transform: scaleY(1); } }
 
 .font-devonshire {
-  color: #3A0912; }
+  color: #3a0912; }
 
 .font-sriracha {
-  background: #FCDFDB; }
+  background: #fcdfdb; }
   .font-sriracha__item1 {
-    color: #3A0912; }
+    color: #3a0912; }
 
 .card-item--1 {
-  background-color: #FCDFDB; }
+  background-color: #fcdfdb; }
 
 .underline__item1 {
   background: linear-gradient(to top, #3a0912 10%, transparent 10.1%) no-repeat;
@@ -330,23 +334,23 @@ a {
     background-size: 100% 100%; }
 
 .list-item__title--2 {
-  background: linear-gradient(to right, #C77412, #905BFD);
-  -webkit-background: linear-gradient(to right, #C77412, #905BFD);
+  background: linear-gradient(to right, #c77412, #905bfd);
+  -webkit-background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 .font-noto {
-  color: #C77412; }
+  color: #c77412; }
 
 .card-list-item--2 {
-  background: #FFF5FE; }
+  background: #fff5fe; }
 
 .card-item--2 {
-  background: #FFF5FE; }
+  background: #fff5fe; }
 
 .card-item--vollkorn {
-  background: linear-gradient(to right, #C77412, #905BFD);
-  -webkit-background: linear-gradient(to right, #C77412, #905BFD);
+  background: linear-gradient(to right, #c77412, #905bfd);
+  -webkit-background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -390,16 +394,16 @@ a {
   width: 40vh; }
 
 .list-item__title--3 {
-  background: linear-gradient(to right, #0431DF, #0E88FB);
-  -webkit-background: linear-gradient(to right, #0431DF, #0E88FB);
+  background: linear-gradient(to right, #0431df, #0e88fb);
+  -webkit-background: linear-gradient(to right, #0431df, #0e88fb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 .card-item--3 {
-  background: #F9F9F9; }
+  background: #f9f9f9; }
 
 .font-siracha {
-  color: #0E88FB; }
+  color: #0e88fb; }
 
 .underline__item3--1 {
   background: linear-gradient(to top, #0431df 10%, transparent 10.1%) no-repeat;
@@ -429,17 +433,17 @@ a {
     background-size: 100% 100%; }
 
 .list-item__title--4 {
-  background: linear-gradient(to right, #72BF56, #BFFF7E);
-  -webkit-background: linear-gradient(to right, #72BF56, #BFFF7E);
+  background: linear-gradient(to right, #72bf56, #bfff7e);
+  -webkit-background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 .card-item--4 {
-  background: #FDFFFD; }
+  background: #fdfffd; }
 
 .card-item__dancing {
-  background: linear-gradient(to right, #72BF56, #BFFF7E);
-  -webkit-background: linear-gradient(to right, #72BF56, #BFFF7E);
+  background: linear-gradient(to right, #72bf56, #bfff7e);
+  -webkit-background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
