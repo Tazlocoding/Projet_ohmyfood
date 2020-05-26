@@ -7,12 +7,18 @@
   bottom: 0;
   &__mention {
     color: $colour-secondary;
+    
   }
   &__contact {
     color: $colour-secondary;
+    
   }
   & > div {
     margin: 0.5rem;
+    font-size: 1.5rem;
+    @media screen and (max-width: 550px) {
+      font-size: 1rem;
+    }
   }
   &__action {
     &:hover {
