@@ -22,18 +22,21 @@
     @media screen and (max-width: 1024px) {
       height: 35vh;
     }
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 768px) {
       width: calc(100% - 40px);
+    }
+    @media screen and (max-width: 576px) {
+      width: calc(100% - 50px);
     }
     &--1 {
       background: $colour-item1;
-      cursor: pointer;
       &:hover {
         background: lighten($colour-item1, 5);
-        & .fas {
-          @include opacity-list;
+        & .fas {  
+          @include opacity-list; 
         }
         & .list-item__title--1 {
+          
           @include opacity-list;
         }
         & .list-item__link {
@@ -49,8 +52,8 @@
           @include opacity-list;
         }
         & .list-item__link {
-          @include opacity-list;
-        }
+          @include opacity-list;  
+        } 
       }
     }
     &--3 {
