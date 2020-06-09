@@ -1,0 +1,51 @@
+.page-menu--1 {
+  > h2 {
+    text-align: center;
+    margin: 50px;
+  }
+  article {
+    background-color: $colour-item1;
+  }
+}
+.page-menu--2 {
+  > h2 {
+    text-align: center;
+    margin: 50px;
+  }
+  article {
+    background-color: $colour-item2;
+  }
+}
+.page-menu--3 {
+  > h2 {
+    text-align: center;
+    margin: 50px;
+  }
+  article {
+    background-color: $colour-item3;
+  }
+}
+.page-menu--4 {
+  > h2 {
+    text-align: center;
+    margin: 50px;
+  }
+  article {
+    background-color: $colour-item4;
+  }
+}
+
+
+
+.card-item__design--color1 {
+  color: rgb(199, 116, 18);
+}
+.card-item__design--color2 {
+  color: rgb(228, 154, 178);
+}
+.card-item__design--color3 {
+  color: rgb(144, 91, 253);
+}
+.card-item__design__long--color2 {
+  width: 40vh;
+}
