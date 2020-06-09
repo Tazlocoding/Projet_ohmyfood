@@ -78,4 +78,13 @@
     font-size: 1rem;
   }
 }
+.font-devonshire {
+  color: $colour-title1;
+}
+.font-sriracha {
+  background: $colour-item1;
+  &__item1 {
+    color: $colour-title1;
+  }
+}
 
