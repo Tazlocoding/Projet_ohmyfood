@@ -114,7 +114,7 @@
     justify-content: center; }
 
 .fas {
-  margin: 0 1rem 1rem 0;
+  padding: 1rem;
   font-size: 2.5rem; }
 
 .fa-music {
@@ -480,7 +480,8 @@ a {
   background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background: linear-gradient(to right, #c77412, #905bfd);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  padding: 0 4.5rem; }
 
 .font-noto {
   color: #c77412; }
@@ -528,7 +529,8 @@ a {
   background: linear-gradient(to right, #0431df, #0e88fb);
   -webkit-background: linear-gradient(to right, #0431df, #0e88fb);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  padding: 0 5rem; }
 
 .card-item--3 {
   background: #f9f9f9; }
@@ -567,7 +569,8 @@ a {
   background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background: linear-gradient(to right, #72bf56, #bfff7e);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  padding: 0 5rem; }
 
 .card-item--4 {
   background: #fdfffd; }
