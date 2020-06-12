@@ -111,7 +111,8 @@
           text-align: center; } }
   .card-item__footer {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
 
 .fas {
   padding: 1rem;
