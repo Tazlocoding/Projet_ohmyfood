@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Tazlocoding/Projet_ohmyfood#readme",
   "devDependencies": {
-    "node-sass": "^4.14.0"
+    "node-sass": "^7.0.0"
   }
 }
